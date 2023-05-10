@@ -2,6 +2,9 @@
 
 Use DNS SRV for globally load balancing REST calls to the OpenShift canary service.
 
+See:
+- https://github.com/smallrye/smallrye-stork/pull/549
+
 ```bash
 dig SRV canary.demo.redhatlabs.dev
 ```
